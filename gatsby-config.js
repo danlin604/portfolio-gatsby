@@ -13,6 +13,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/markdowns`,
+        name: "markdowns",
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -27,8 +34,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // If you’re using this plugin with gatsby-plugin-manifest (recommended) this plugin should be listed after that plugin so the manifest file can be included in the service worker.
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [], // just in case those previously mentioned remark plugins sound cool :)
+      },
+    },
   ],
 }
