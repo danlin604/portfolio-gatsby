@@ -6,7 +6,7 @@ title: "Dan"
 
 # Dan
 
-I am a software developer. JavaScript and web security is my current passion. There is little else that I enjoy more than to sit down, and grok new ideas. I'll be updating this website in my spare time, so be sure to check back occasioanlly for new content!
+I am a software developer. JavaScript and web security is my current passion. There is little else that I enjoy more than to sit down and grok new ideas. I'll be updating this website in my spare time, so be sure to check back occasionally for new content!
 
 ## Skills
 
@@ -23,11 +23,11 @@ NoSQL, P5, PHP, Power BI, Rust, SVN, Tableau, UX, Websocket
 
 ## Education
 
-**British Columbia Institute of Technology**  
-Diploma - Computer Systems Technology  
-Graduated with Distinction  
-2014 – 2016  
+**British Columbia Institute of Technology**
+Diploma - Computer Systems Technology
+Graduated with Distinction
+2014 – 2016
 
-**Simon Fraser University**  
-Bachelor of Arts - English  
-2008 – 2012  
+**Simon Fraser University**
+Bachelor of Arts - English
+2008 – 2012

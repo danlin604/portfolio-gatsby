@@ -7,10 +7,26 @@ url: "https://barterbay.ca"
 source: ""
 ---
 
-BarterBay app is created from scratch using React Native, Node.js, PostgreSQL, and AWS. My focus for the platform were business & marketing research, React Native mobile development, authentication via Node.js, security, and PostgreSQL database.
+BarterBay uses Next.js, React Native, Node.js, PostgreSQL, and AWS services. My focuses are the following:
 
-Most of the complex business logic for our bartering system are located in the PostgreSQL DB. It handles Full-Text search, GIS barter location suggestions with anonymization, barter system, and instant messages, authentication. The justification for using PostgreSQL so heavily is because that it is capable handling complex tasks quickly and with low latency. Our February 2018 launch validated this architectural choice.
+* Business & marketing research
+* Business proposals
+* Terms of service & user agreements
+* React Native development
+* Authentication services
+* Security
+* PostgreSQL functions & schema designs
 
-I worked in a small team consisting of the CEO, designer, and two other developers. The environment is highly informal, but has a heavy emphasis on research and design. Every design is analyzed by the team and goes through a dogfooding process. The team ends up with a high understanding of the system, business needs, and increased confidence in the designs. The cost of this approach is that a lot of time is spent in these design meetings, which may be a necessary cost in the end. I ended up with a great love for whiteboards and sequence diagrams there.
+Most of the complex business logic for our bartering system is located in the PostgreSQL database:
 
-I wore additional hats here in order to satisfy our company needs. I wrote marketing research materials, business proposals, Terms of Service, and User Agreements.
+* Full-text search
+* Anonymized GIS
+* Bartering system
+* Real-time chat
+* Authentication
+
+The justification for using PostgreSQL so heavily is because it is capable of handling complex transactions quickly and with low latency. Our February 2018 launch validates this architectural choice.
+
+I worked in a small team consisting of the CEO, designer, and two other developers. The environment is informal but has a heavy emphasis on research and design. Every design is analyzed by the team and goes through a *dogfooding* process. We end up with an in-depth understanding of our system and our business needs, which increased our *confidence in our designs*.
+
+Much of the time is spent on these design meetings, which may be a necessary cost. I end up with a great love for the *whiteboarding* process and *sequence diagrams* here.

@@ -7,4 +7,8 @@ url: "https://dev.danlin.ca"
 source: "https://github.com/danlin604/web"
 ---
 
-A co-worker convinced me to dig deeper into Webpack so I began a new portfolio website. Initially, my plan was to convert the 2018 website to Gatsby, but none of the styles imported well so I ended up trying to fix more breakages then to actually learn new thing! The excuse of learning Webpack is what was needed for me to start from scratch. You can see that I am really taken with Markdown and began converting a more portable version of my resume. because by now this is my fourth website, and I am looking for a way to write less. You can find animated emoji, imported P5 starfield animation, and a solar-system built in A-Frame.
+Learning Webpack gives me the *excuse* I need to start again from scratch. The previous CRA website requires me to custom code a lot of the content, all of which require additional styling. They are not maintainable at all.
+
+*Maintainability* is one of the issues I want to address. Markdown simplifies the website because content is separate from code. Styling the `.md` in a single stylesheet offloads a lot of my future work.
+
+You can find emoji animation, imported P5 starfield animation, and a solar-system built in A-Frame at `dev.danlin.ca`. I am trying out subdomain prefixing to see if it makes sense to separate future projects this way. Maintaining both `danlin.ca` and `dev.danlin.ca` is confusing, instead, I am going to migrate the Webpack website to GitHub Pages. Only one *main* project should be hosted on `danlin.ca` with subdomain prefix allocated for development and staging.
