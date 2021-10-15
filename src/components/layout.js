@@ -24,8 +24,6 @@ const Layout = ({ children }) => {
           }
           projects {
             name
-            description
-            url
           }
         }
       }
@@ -34,7 +32,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
+      <Header
+        menuLinks={data.site.siteMetadata.menuLinks}
+        siteTitle={data.site.siteMetadata.title}
+      />
       <main>{children}</main>
     </>
   )

@@ -13,7 +13,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const result = await graphql(`
     {
       allFile(
-        filter: { absolutePath: {regex: "/(\/markdown-pages).*.md$/"} }
+        filter: { absolutePath: { regex: "/(/markdown-pages).*.md$/" } }
         limit: 1000
       ) {
         edges {

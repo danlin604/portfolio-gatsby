@@ -7,4 +7,4 @@ url: "youtu.be/xxdy4SwaoJg"
 source: "https://github.com/danlin604/MediaPlayer"
 ---
 
-A student project. It allows `.flac` playback. The music player plays music asynchronously and recursively scans through the user's media folders. It follows the 2016 Android permission guidelines.
+Android Music Player is a student group project for the mobile development course in BCIT. It allows for `.flac` playback as well as commonly supported file extensions. It plays music asynchronously and recursively scans through the user's media folders. It follows the 2016 Android permission guidelines.

@@ -7,29 +7,29 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
     <Content>
-        <Card>
-          <span
-            role="img"
-            aria-label={'sheep' ? 'sheep' : ''}
-            aria-hidden={'sheep' ? 'false' : 'true'}
-          >
-            🐑
-          </span>
-          <section>
-            <Label>
-              <a href="https://github.com/danlin604">github</a>
-            </Label>
-            <Label>
-              <a href="https://stackoverflow.com/users/6713596/dan?tab=profile">
-                stackoverflow
-              </a>
-            </Label>
-            <Label>
-              <a href="https://www.linkedin.com/in/dan-yhl">linkedin</a>
-            </Label>
-          </section>
-        </Card>
-      </Content>
+      <Card>
+        <span
+          role="img"
+          aria-label={"sheep" ? "sheep" : ""}
+          aria-hidden={"sheep" ? "false" : "true"}
+        >
+          🐑
+        </span>
+        <section>
+          <Label>
+            <a href="https://github.com/danlin604">github</a>
+          </Label>
+          <Label>
+            <a href="https://stackoverflow.com/users/6713596/dan?tab=profile">
+              stackoverflow
+            </a>
+          </Label>
+          <Label>
+            <a href="https://www.linkedin.com/in/dan-yhl">linkedin</a>
+          </Label>
+        </section>
+      </Card>
+    </Content>
   </Layout>
 )
 

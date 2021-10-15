@@ -12,16 +12,17 @@ const Header = ({ siteTitle, menuLinks }) => (
             key={link.name}
             style={{
               listStyleType: `none`,
-              padding: `.5rem`
+              padding: `.5rem`,
             }}
           >
             <Link
               style={{
                 color: `palevioletred`,
-                textDecoration: `none`
+                textDecoration: `none`,
               }}
-              activeStyle={{ textDecoration: 'underline' }}
-              to={link.link}>
+              activeStyle={{ textDecoration: "underline" }}
+              to={link.link}
+            >
               {link.name}
             </Link>
           </li>
@@ -43,7 +44,7 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  padding: .5rem;
+  padding: 0.5rem;
   flex-wrap: wrap;
 `
 
