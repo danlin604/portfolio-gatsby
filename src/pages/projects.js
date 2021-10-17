@@ -37,10 +37,12 @@ const ProjectsPage = () => {
     <Layout>
       <SEO title="Projects" />
       {data.allFile.edges.map(edge => (
-        <article key={edge.node.childMarkdownRemark.id}>
+        <article
+          style={{ marginBottom: '32px' }}
+          key={edge.node.childMarkdownRemark.id}>
           <h1>{edge.node.childMarkdownRemark.frontmatter.title}</h1>
           <p>
-            Date: {edge.node.childMarkdownRemark.frontmatter.startDate} -{' '}
+            {edge.node.childMarkdownRemark.frontmatter.startDate} -{' '}
             {edge.node.childMarkdownRemark.frontmatter.endDate}
           </p>
           <p>

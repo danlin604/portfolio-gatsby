@@ -4,9 +4,9 @@ import SEO from '../components/seo'
 import styled from 'styled-components'
 
 // Assets
-import linkedin from '../images/LinkedIn-Logos/LI-In-Bug.png'
-import github from '../images/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png'
-import stackoverflow from '../images/Stacks-Icons/LogoGlyph.svg'
+import linkedin from '../images/LinkedIn/logo.svg'
+import github from '../images/GitHub/logo.svg'
+import stackoverflow from '../images/StackOverflow/logo.svg'
 
 const ContactPage = () => (
   <Layout>
@@ -14,13 +14,13 @@ const ContactPage = () => (
     <Content>
       <Card>
         <header>
-          <span role="img" aria-label="Hand wave">
-            👋
+          <span role="img" aria-label="Technologist">
+            🧑‍💻
           </span>
         </header>
 
         <ContactBody>
-          <p>I can best be reached via email or Linkedin.</p>
+          <p>Feel free to reach out by email or through LinkedIn.</p>
         </ContactBody>
 
         <footer>
@@ -52,8 +52,7 @@ const ContactPage = () => (
 
 const Content = styled.section`
   margin: 16px;
-  height: 100%;
-  width: 100%;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +87,6 @@ const ContactBody = styled.div`
   display: flex;
   justify-content: start;
   flex-direction: row;
-  margin: 1em;
   margin-top: 64px;
 `
 
