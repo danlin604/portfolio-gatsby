@@ -1,25 +1,24 @@
 ---
-path: "/resume"
-date: 2020-02-12
-title: "Dan"
+path: '/resume'
+date: 2021-10-15
+title: 'Dan'
 ---
 
-# Dan
-
-I am a software developer. JavaScript and web security is my current passion. There is little else that I enjoy more than to sit down and grok new ideas. I'll be updating this website in my spare time, so be sure to check back occasionally for new content!
+JavaScript and web security is my current passion. There is little else that I enjoy more than to sit down and grok new ideas. I'll be updating this website in my spare time, so be sure to check back occasionally for new content!
 
 ## Skills
 
 ### Working Knowledge
 
-A-Frame (VR), Android, Angular, AWS, CSS, ElasticSearch, Express, Git, GraphQL, HTML,
-Java, JavaScript (ES6+), NgRX, Node.js, PostgreSQL, PubSub, React, React Native, RxJS,
-Security, T-SQL, Three.js, TypeScript
+A-Frame (VR), Agile, Android, Angular, AWS, CSS, ElasticSearch, Express, Gatsby, Git, GraphQL, HTML, Java, JavaScript (ES6+),
+Jest, NgRX, Node.js, PHP, PostgreSQL, PubSub, React, React Native, Redux, RxJS, Security, Storybook, Styled Components,
+T-SQL, Three.js, TypeScript, Webpack
 
 ### Basic Knowledge
 
-Agile, C, C#, Code Igniter, C++, Jasmine, Jest, JIRA, jQuery, JUnit, Linux, Mocha, MySQL,
-NoSQL, P5, PHP, Power BI, Rust, SVN, Tableau, UX, Websocket
+Apollo Server, Azure, Blender, C, C#, Code Igniter, C++, D3.js, Docker, Go, Jasmine, Jest, JIRA, jQuery, JUnit, Kubernetes, Linux,
+Lit, Lua, Mocha, MongoDB, MySQL, NestJS, NoSQL, P5, Power BI, Rust, SVN, Tableau, Unity, UX, Vagrant, WASM, Websocket,
+Zend Framework
 
 ## Education
 

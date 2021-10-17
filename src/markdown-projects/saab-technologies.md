@@ -1,9 +1,9 @@
 ---
 startDate: 2015-01-01
 endDate: 2015-08-30
-title: "SAAB Technologies"
-description: "Port Management System"
-url: "https://saab.com/about-saab/sites/maritime-traffic-management/"
+title: 'SAAB Technologies'
+description: 'Port Management System'
+url: 'https://saab.com/about-saab/sites/maritime-traffic-management/'
 ---
 
 [SAAB](https://saab.com/) is a Swedish aerospace and defense company. SAAB Technologies, based in Burnaby, is part of its maritime traffic management division. I worked at SAAB through BCIT's Co-op program for two semesters:

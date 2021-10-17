@@ -1,10 +1,10 @@
 ---
 startDate: 2019-04-10
 endDate: 2020-02-06
-title: "Webpack React Website"
-description: "Config Config Config"
-url: "https://dev.danlin.ca"
-source: "https://github.com/danlin604/web"
+title: 'Webpack React Website'
+description: 'Config Config Config'
+url: 'https://dev.danlin.ca'
+source: 'https://github.com/danlin604/web'
 ---
 
 Learning Webpack gives me the _excuse_ I need to start again from scratch. The previous CRA website requires me to custom code a lot of the content, all of which require additional styling. They are not maintainable at all.

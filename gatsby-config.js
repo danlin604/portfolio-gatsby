@@ -5,49 +5,49 @@ module.exports = {
     author: `Dan Lin`,
     menuLinks: [
       {
-        name: "Dan",
-        link: "/",
+        name: 'Dan',
+        link: '/',
       },
       {
-        name: "Resume",
-        link: "/resume",
+        name: 'Resume',
+        link: '/resume',
       },
       {
-        name: "Projects",
-        link: "/projects",
+        name: 'Projects',
+        link: '/projects',
       },
       {
-        name: "Contact",
-        link: "/contact",
+        name: 'Contact',
+        link: '/contact',
       },
     ],
     projects: [
       {
-        name: "Music Player",
+        name: 'Music Player',
       },
       {
-        name: "Portfolio Website 2017",
+        name: 'Portfolio Website 2017',
       },
       {
-        name: "BarterBay Exchange",
+        name: 'BarterBay Exchange',
       },
       {
-        name: "Portfolio Website 2018",
+        name: 'Portfolio Website 2018',
       },
       {
-        name: "Eyexpo Technology Corp.",
+        name: 'Eyexpo Technology Corp.',
       },
       {
-        name: "Portfolio Website 2019",
+        name: 'Portfolio Website 2019',
       },
       {
-        name: "Hello WASM",
+        name: 'Hello WASM',
       },
       {
-        name: "D3 Gapminder",
+        name: 'D3 Gapminder',
       },
       {
-        name: "Portfolio Website 2020",
+        name: 'Portfolio Website 2020',
       },
     ],
   },
@@ -63,14 +63,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: "markdown-pages",
+        name: 'markdown-pages',
         path: `${__dirname}/src/markdown-pages`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: "markdown-projects",
+        name: 'markdown-projects',
         path: `${__dirname}/src/markdown-projects`,
       },
     },
@@ -92,7 +92,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-catch-links`,
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [], // just in case those previously mentioned remark plugins sound cool :)
       },

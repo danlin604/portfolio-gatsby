@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import styled from "styled-components"
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
+import styled from 'styled-components'
 
 const Header = ({ siteTitle, menuLinks }) => (
   <StyledHeader>
@@ -20,7 +20,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 color: `palevioletred`,
                 textDecoration: `none`,
               }}
-              activeStyle={{ textDecoration: "underline" }}
+              activeStyle={{ textDecoration: 'underline' }}
               to={link.link}
             >
               {link.name}

@@ -1,10 +1,10 @@
 ---
 startDate: 2018-10-09
 endDate: 2020-01-30
-title: "Eyexpo Technology"
-description: "All-In-One Immersive Creation and Data Platform"
-url: "https://www.eyexpo.com/"
-source: ""
+title: 'Eyexpo Technology'
+description: 'All-In-One Immersive Creation and Data Platform'
+url: 'https://www.eyexpo.com/'
+source: ''
 ---
 
 I worked on the legacy tour, rebuild tour, spotlight, and analytics for the Eyexpo platform.

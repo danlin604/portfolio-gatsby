@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const ProjectsPage = () => {
   const data = useStaticQuery(graphql`
@@ -39,11 +39,19 @@ const ProjectsPage = () => {
       {data.allFile.edges.map(edge => (
         <article key={edge.node.childMarkdownRemark.id}>
           <h1>{edge.node.childMarkdownRemark.frontmatter.title}</h1>
-          <p>Date: {edge.node.childMarkdownRemark.frontmatter.startDate} - {edge.node.childMarkdownRemark.frontmatter.endDate}</p>
-          <p>Description: {edge.node.childMarkdownRemark.frontmatter.description}</p>
           <p>
-            <a href={edge.node.childMarkdownRemark.frontmatter.url}>url</a> {` | `}
-            <a href={edge.node.childMarkdownRemark.frontmatter.source}>source</a>
+            Date: {edge.node.childMarkdownRemark.frontmatter.startDate} -{' '}
+            {edge.node.childMarkdownRemark.frontmatter.endDate}
+          </p>
+          <p>
+            Description: {edge.node.childMarkdownRemark.frontmatter.description}
+          </p>
+          <p>
+            <a href={edge.node.childMarkdownRemark.frontmatter.url}>url</a>{' '}
+            {` | `}
+            <a href={edge.node.childMarkdownRemark.frontmatter.source}>
+              source
+            </a>
           </p>
           <div
             className="project-content"

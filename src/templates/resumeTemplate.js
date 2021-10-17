@@ -1,7 +1,7 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 export default function ResumeTemplate({
   data, // this prop will be injected by the GraphQL query below.

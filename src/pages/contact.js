@@ -1,33 +1,50 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import styled from "styled-components"
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import styled from 'styled-components'
+
+// Assets
+import linkedin from '../images/LinkedIn-Logos/LI-In-Bug.png'
+import github from '../images/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png'
+import stackoverflow from '../images/Stacks-Icons/LogoGlyph.svg'
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
     <Content>
       <Card>
-        <span
-          role="img"
-          aria-label={"sheep" ? "sheep" : ""}
-          aria-hidden={"sheep" ? "false" : "true"}
-        >
-          🐑
-        </span>
-        <section>
-          <Label>
-            <a href="https://github.com/danlin604">github</a>
-          </Label>
-          <Label>
-            <a href="https://stackoverflow.com/users/6713596/dan?tab=profile">
-              stackoverflow
+        <header>
+          <span role="img" aria-label="Hand wave">
+            👋
+          </span>
+        </header>
+
+        <ContactBody>
+          <p>I can best be reached via email or Linkedin.</p>
+        </ContactBody>
+
+        <footer>
+          <IconContainer>
+            <a href="https://github.com/danlin604">
+              <img src={github} alt="GitHub" height="32" width="32" />
             </a>
-          </Label>
-          <Label>
-            <a href="https://www.linkedin.com/in/dan-yhl">linkedin</a>
-          </Label>
-        </section>
+          </IconContainer>
+          <IconContainer>
+            <a href="https://stackoverflow.com/users/6713596/dan?tab=profile">
+              <img
+                src={stackoverflow}
+                alt="Stack Overflow"
+                height="32"
+                width="32"
+              />
+            </a>
+          </IconContainer>
+          <IconContainer>
+            <a href="https://www.linkedin.com/in/dan-yhl">
+              <img src={linkedin} alt="Linkedin" height="32" width="32" />
+            </a>
+          </IconContainer>
+        </footer>
       </Card>
     </Content>
   </Layout>
@@ -63,24 +80,20 @@ const Card = styled.article`
     margin: 0;
     font-size: 64px;
   }
-
-  section {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
 `
 
-const Label = styled.section`
+const ContactBody = styled.div`
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  font-size: 32px;
+  justify-content: start;
+  flex-direction: row;
+  margin: 1em;
+  margin-top: 64px;
+`
 
-  a {
-    color: #263238;
-    text-decoration: none;
-  }
+const IconContainer = styled.span`
+  margin: 0.5em;
 `
 
 export default ContactPage

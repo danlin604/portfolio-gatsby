@@ -1,9 +1,9 @@
 ---
 startDate: 2018-05-12
 endDate: 2018-12-01
-title: "CRA Website"
-description: "Simple React Website"
-source: "https://github.com/danlin604/website-react"
+title: 'CRA Website'
+description: 'Simple React Website'
+source: 'https://github.com/danlin604/website-react'
 ---
 
 I want to revisit web development using React. It is similar to React Native as they share the same React library. CSS translates well between these frameworks.
