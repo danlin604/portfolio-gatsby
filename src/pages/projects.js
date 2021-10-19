@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import { useStaticQuery, graphql } from 'gatsby'
 
 const ProjectsPage = () => {
@@ -35,8 +35,8 @@ const ProjectsPage = () => {
 
   return (
     <Layout>
-      <SEO title="Projects" />
-      {data.allFile.edges.map(edge => (
+      <Seo title="Projects" />
+      {data.allFile.edges.map((edge) => (
         <article
           style={{ marginBottom: '32px' }}
           key={edge.node.childMarkdownRemark.id}

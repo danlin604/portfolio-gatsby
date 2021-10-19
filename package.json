@@ -6,25 +6,25 @@
   "author": "Dan Lin",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.19.7",
-    "gatsby-image": "^2.2.39",
-    "gatsby-plugin-catch-links": "^2.1.25",
-    "gatsby-plugin-manifest": "^2.2.41",
-    "gatsby-plugin-offline": "^3.0.34",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.4.3",
-    "gatsby-plugin-styled-components": "^3.1.19",
-    "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-transformer-remark": "^2.6.50",
-    "gatsby-transformer-sharp": "^2.3.13",
+    "gatsby": "^3.14.3",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-catch-links": "^3.14.0",
+    "gatsby-plugin-manifest": "^3.14.0",
+    "gatsby-plugin-offline": "^4.14.0",
+    "gatsby-plugin-react-helmet": "^4.14.0",
+    "gatsby-plugin-sharp": "^3.14.1",
+    "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-remark": "^4.11.0",
+    "gatsby-transformer-sharp": "^3.14.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
-    "react-dom": "npm:@hot-loader/react-dom",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^5.0.1"
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.4.1"
   },
   "keywords": [
     "gatsby"

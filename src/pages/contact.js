@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 // Assets
@@ -10,7 +10,7 @@ import stackoverflow from '../images/StackOverflow/logo.svg'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <Seo title="Contact" />
     <Content>
       <Card>
         <header>

@@ -7,7 +7,7 @@ const Header = ({ siteTitle, menuLinks }) => (
   <StyledHeader>
     <StyledNav>
       <StyledUl>
-        {menuLinks.map(link => (
+        {menuLinks.map((link) => (
           <li
             key={link.name}
             style={{
