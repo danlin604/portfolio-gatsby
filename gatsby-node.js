@@ -9,7 +9,7 @@
 const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const resumeTemplate = path.resolve(`src/templates/resumeTemplate.js`)
+  const skillsTemplate = path.resolve(`src/templates/skillsTemplate.js`)
   const result = await graphql(`
     {
       allFile(
@@ -36,7 +36,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allFile.edges.forEach(({ node }) => {
     createPage({
       path: node.childMarkdownRemark.frontmatter.path,
-      component: resumeTemplate,
+      component: skillsTemplate,
       context: {}, // additional data can be passed via context
     })
   })

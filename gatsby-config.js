@@ -9,8 +9,8 @@ module.exports = {
         link: '/',
       },
       {
-        name: 'Resume',
-        link: '/resume',
+        name: 'Skills',
+        link: '/skills',
       },
       {
         name: 'Projects',

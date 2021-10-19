@@ -39,7 +39,8 @@ const ProjectsPage = () => {
       {data.allFile.edges.map(edge => (
         <article
           style={{ marginBottom: '32px' }}
-          key={edge.node.childMarkdownRemark.id}>
+          key={edge.node.childMarkdownRemark.id}
+        >
           <h1>{edge.node.childMarkdownRemark.frontmatter.title}</h1>
           <p>
             {edge.node.childMarkdownRemark.frontmatter.startDate} -{' '}
