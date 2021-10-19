@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_website=self.webpackChunkportfolio_website||[]).push([[975],{8730:function(e,t,n){n.r(t),n.d(t,{default:function(){return o}});var l=n(7294),r=n(5127),a=n(3751);function o(e){var t=e.data.markdownRemark,n=t.frontmatter,o=t.html;return l.createElement(r.Z,null,l.createElement(a.Z,{title:"Skills"}),l.createElement("h1",null,n.title),l.createElement("div",{className:"blog-post-content",dangerouslySetInnerHTML:{__html:o}}))}}}]);
+//# sourceMappingURL=component---src-templates-skills-template-js-2594ec44a257b1e29191.js.map

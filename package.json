@@ -2,8 +2,11 @@
   "name": "portfolio-website",
   "private": true,
   "description": "A portfolio website",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Dan Lin",
+  "engines": {
+    "node": "14.18.1"
+   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^3.14.3",

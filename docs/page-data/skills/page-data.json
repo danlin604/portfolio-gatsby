@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-skills-template-js",
+    "path": "/skills",
+    "result": {"data":{"markdownRemark":{"html":"<h3>Working Knowledge</h3>\n<p>A-Frame (VR), Agile, Android, Angular, AWS, CSS, ElasticSearch, Express, Gatsby, Git, GraphQL, HTML, Java, JavaScript (ES6+),\nJest, NgRX, Node.js, PHP, PostgreSQL, PubSub, React, React Native, Redux, RxJS, Security, Storybook, Styled Components,\nT-SQL, Three.js, TypeScript, Webpack</p>\n<h3>Basic Knowledge</h3>\n<p>Apollo Server, Azure, Blender, C, C#, Code Igniter, C++, D3.js, Docker, Go, Jasmine, Jest, JIRA, jQuery, JUnit, Kubernetes, Linux,\nLit, Lua, Mocha, MongoDB, MySQL, NestJS, NoSQL, P5, Power BI, Rust, SVN, Tableau, Unity, UX, Vagrant, WASM, Websocket,\nZend Framework</p>","frontmatter":{"date":"October 15, 2021","path":"/skills","title":"Skills"}}},"pageContext":{}},
+    "staticQueryHashes": ["2906802616","63159454"]}
