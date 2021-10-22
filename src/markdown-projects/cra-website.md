@@ -17,3 +17,9 @@ I played a little bit with `p5.js` integration in React. I can get them working.
 This website is hosted on AWS. I want to register an account, buy a domain, host a website, secure the website, and optimize the performance of the website. As of writing, this project is hosted on [danlin.ca](https://danlin.ca). It will only serve `HTTPS` for the following URLs: `danlin.ca`, `www.danlin.ca`, `http://danlin.ca`, `http://www.danlin.ca`. It also prevents direct bucket access because having unknown users access my S3 bucket is a _terrible security risk_! Cutting off S3 was non-trivial, but in the end, I have Cloudfront, and a way to cache-bust the deployment.
 
 The website ends up costing about \$1 CAD per month. I will be retiring the CRA website and migrate it to GitHub Pages in favor of moving newer projects to my primary domain.
+
+*Update:*
+
+Expect [danlin.ca](https://danlin.ca) to host a newer web project.
+
+

@@ -11,7 +11,7 @@ export default function SkillsTemplate({
   return (
     <Layout>
       <Seo title="Skills" />
-      <h1>{frontmatter.title}</h1>
+      <h1>{ frontmatter.title }</h1>
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}

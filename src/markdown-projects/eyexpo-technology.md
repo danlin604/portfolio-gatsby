@@ -26,11 +26,11 @@ Novel integration successes:
 - Extend A-Frame with Three.js
 - A-Frame components for Angular
 
-The spotlight model viewer project uses lessons learned from the rebuild. The development speed of the spotlight project validates the new front-end VR architecture designs.
+The spotlight model viewer project uses lessons learned from the rebuild. The development speed of the spotlight project validates the new front-end VR architecture designs. I borrowed some concepts from React to enable VR components to drop and work. There were many unknowns but deadlines help push this experiment forward and we ended up with a novel A-Frame to Angular integration that is easy to maintain and use.
 
 The analytics project leverages ElasticSearch, Elastic APM, OpenMetrics (now OpenTelemetry) to provide tracing, metrics, and logging, intending to show user insights. The design encompasses front-end visualization, analytics micro-service, and additional modification to existing micro-services to write to telemetry.
 
-Front-end went through many incremental changes. Different ways of handling states are tested:
+Frontend went through many incremental changes. Different ways of handling states are tested:
 
 - RxJS
 - Services
